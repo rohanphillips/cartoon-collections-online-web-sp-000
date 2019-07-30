@@ -16,8 +16,8 @@ end
 
 def long_planeteer_calls(array)
   puts array
-  collection = array.select{|num| num.length > 4 ? true : false}
-  puts collection
+#  collection = array.select{|num| num.length > 4 ? true : false}
+  #puts collection
 end
 
 def find_the_cheese# code an argument here
