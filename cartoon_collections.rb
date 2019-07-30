@@ -31,8 +31,6 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
 
   array.each_with_index do |n, index|
-    puts n
-    puts cheese_types.include?(n)
     if cheese_types.include?(n)
       returncheese = array[index]
     end
