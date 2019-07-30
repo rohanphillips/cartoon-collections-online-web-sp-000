@@ -17,6 +17,7 @@ end
 def long_planeteer_calls(array)
   collection = []
   array.each{|n| collection << n.length > 4}
+  collection
 end
 
 def find_the_cheese# code an argument here
