@@ -9,7 +9,7 @@ def summon_captain_planet(array)
   newtext = ""
   array.each do |n|
     newtext = n.capitalize + "!"
-    collection << name
+    collection << newtext
   end
   collection
 end
