@@ -37,4 +37,5 @@ def find_the_cheese(array)
       returncheese = array[index]
     end
   end
+  returncheese
 end
